@@ -1,0 +1,1 @@
+A mock method is used during registration. If the method is called, the account registration is successful. This is to prevent the continuous creation of accounts during the test. And through mock http.js file to simulate the interaction with the back-end and prevent test failure when the back-end is unavailable.
